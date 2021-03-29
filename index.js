@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 
-app.use('/',require('./routes/vaccine'));
+app.use('/',require('./routes/home'));
 
 
 var port = 3000;
